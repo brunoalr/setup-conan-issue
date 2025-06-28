@@ -28,5 +28,5 @@ jobs:
       - name: Build
         shell: bash
         run: |
-          conan install . --build=missing --update --settings=compiler.cppstd=20
+          conan install . --build=missing --update --settings=compiler.cppstd=17
 
