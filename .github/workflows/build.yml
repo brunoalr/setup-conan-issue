@@ -23,7 +23,7 @@ jobs:
     steps:
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # 4.2.2
 
-      - uses: conan-io/setup-conan@593e0b5bf725f7a0fbf8ba6c249c78e09141cd85 # 1.0.0
+      - uses: conan-io/setup-conan@434f093a557d1ee6972c4ed78693c3191653537b # 1.1.0
 
       - name: Build
         shell: bash
